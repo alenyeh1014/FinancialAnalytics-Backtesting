@@ -30,11 +30,11 @@ Hi all, this is a Financial Analytics Project ! - Backtesting with Simple Moving
   - Here, I download three representative stocks of different industries and also one index from **1/1/2010 to 11/30/2018** via Yahoo Finance. They are Apple Inc. **(APPL)**, General Electric Company **(GE)**, Morgan Stanley **(MS)** and **S&P 500 (^GSPC)**. 
 
 * Methodology Approach:
-  1. In the beginning, I import and convert all csv files downloaded from Yahoo Finance into SAS files. 
-  2. After that, I calculate their basic statistical analysis and plot time series for easy understanding.
-  3. Furthermore, I create and add two additional moving average curves which are **“SMA_Short”** and **“SMA_Long”** with **“Date”** and **“Close”** as variables into the model (50 days for short term and 200 days for long term).
-  4. In addition, I point out the interactions of “SMA_Short” curve and SMA_Long” curve and label them as “buy” and “sell” signals for traders.
-  5. Finally, I compare the results between applying SMA trading strategy or just holding the stock.
+  - In the beginning, I import and convert all csv files downloaded from Yahoo Finance into SAS files. 
+  - After that, I calculate their basic statistical analysis and plot time series for easy understanding.
+  - Furthermore, I create and add two additional moving average curves which are **“SMA_Short”** and **“SMA_Long”** with **“Date”** and **“Close”** as variables into the model (50 days for short term and 200 days for long term).
+  - In addition, I point out the interactions of “SMA_Short” curve and SMA_Long” curve and label them as “buy” and “sell” signals for traders.
+  - Finally, I compare the results between applying SMA trading strategy or just holding the stock.
 
 * Conclusion:
   - At most of the time, implementing SMA trading strategy can only earn little profit, which is much less than just holding the stocks (for some stocks applying SMA will even loss money). The possible reason is the way I generate SMA curves with too many days and this result may cause SMA trading strategy to become less sentative. Meanwhile, for the stocks grow rapidly such as AAPL, SMA will miss the best opportunity to get in the market; for the stocks have great volatility on their prices such as GE, SMA would not act in time before the market trend changes. To sum up, even though some results can be distinguished with  SMA trading strategy, more modifications are needed.
