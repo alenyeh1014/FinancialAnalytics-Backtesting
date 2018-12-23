@@ -24,8 +24,10 @@ Hi all, this is a Financial Analytics Project ! - Backtesting with Simple Moving
 ### Project Description
 
 * Motivation:
-
+  - In general, a moving average helps cut down the amount of **noise** on a price chart. Look at the the direction of the moving average to get a basic idea of which way the price is moving. For instance, if the angle goes up, the price is moving up (or was recently) overall. On the other hand, if the angle goes down, then the price is moving down (or was recently) overall. If it moves sideways, the price is likely in a range. From those information, I can utilize the feature to help with the trading decision.
+  
 * Data and Scope:
+  - Here, I download three representative stocks of different industries and also one index from 1/1/2010 to 11/30/2018 via Yahoo Finance. They are Apple Inc. (APPL), General Electric Company (GE), Morgan Stanley (MS) and S&P 500 (^GSPC). 
 
 * Methodology Approach:
 
