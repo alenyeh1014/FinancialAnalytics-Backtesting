@@ -37,7 +37,8 @@ Hi all, this is a Financial Analytics Project ! - Backtesting with Simple Moving
   - Finally, I compare the results between applying SMA trading strategy or just holding the stock.
 
 * Conclusion:
-  - At most of the time, implementing SMA trading strategy can only earn little profit, which is much less than just holding the stocks (for some stocks applying SMA will even loss money). The possible reason is the way I generate SMA curves with too many days and this result may cause SMA trading strategy to become less sentative. Meanwhile, for the stocks grow rapidly such as AAPL, SMA will miss the best opportunity to get in the market; for the stocks have great volatility on their prices such as GE, SMA would not act in time before the market trend changes. To sum up, even though some results can be distinguished with  SMA trading strategy, more modifications are needed.
+  - Most of the time, implementing SMA trading strategy can only earn little profit, which is much less than just holding the stocks (for some stocks applying SMA will even loss money). The possible reason is the way I generate SMA curves with too many days and this result may cause SMA trading strategy to become less sentative. 
+  - Meanwhile, for the stocks grow rapidly such as AAPL, SMA will miss the best opportunity to get in the market; for the stocks have great volatility on their prices such as GE, SMA would not act in time before the market trend changes. To sum up, even though some results can be distinguished with  SMA trading strategy, more modifications are needed.
 
 
 
