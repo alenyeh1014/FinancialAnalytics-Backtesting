@@ -33,7 +33,7 @@ Hi all, this is a Financial Analytics Project ! - Backtesting with Simple Moving
   - In the beginning, I import and convert all csv files downloaded from Yahoo Finance into SAS data. 
   - After that, I calculate their basic statistical analysis and plot time series for easy understanding.
   - Furthermore, I create and add two additional moving average curves which are **“SMA_Short”** and **“SMA_Long”** with **“Date”** and **“Close”** as variables into the model **(50 days for short term and 200 days for long term)**.
-  - In addition, I point out the interactions of “SMA_Short” curve and SMA_Long” curve and label them as **“buy”** and **“sell”** signals for traders.
+  - In addition, I point out the interactions of **"SMA_Short"** curve and **"SMA_Long"** curve and label them as **“Buy”** and **“Sell”** signals for traders.
   - Finally, I compare the results between applying SMA trading strategy or just holding the stock.
 
 * Conclusion:
