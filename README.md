@@ -14,7 +14,7 @@ Hi all, this is a Financial Analytics Project ! - Backtesting with Simple Moving
   -  Simple Moving Average (SMA) is an arithmetic moving average calculated by adding the closing price of the security for a number of time periods and then divide the total by the number of time periods. Most traders look for **short-term averages to cross above longer-term averages to signal the beginning of an uptrend**. Short-term averages can act as levels of support when the price experiences a pullback.
 
 
-### Technologies and Packaged Used
+### Technologies and Packages Used
 
 * Statistical Analysis System (SAS)
 * SAS: Macro
